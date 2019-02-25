@@ -11,11 +11,10 @@ public class MostrarLIst {
 
     public void mostrar(ArrayList<String> lista) {
 
-        for (int i = 0; i < lista.size(); i++) {
-
-            JOptionPane.showMessageDialog(null, lista.indexOf(i));
-            
-        }
+        //hacemos la lista publica para poder acceder a ella cómodamente
+        //podemos crear un ArrayList adicional donde meter el index y el
+        //valor del arraylist como parte de un objeto (arraylist de objetos??)
+        JOptionPane.showMessageDialog(null, lista);
 
     }
 

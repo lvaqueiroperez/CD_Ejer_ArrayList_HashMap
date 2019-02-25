@@ -8,7 +8,8 @@ import java.util.*;
  */
 public class ClassHash implements InterfaceHash {
 
-    private HashMap<Integer, String> miHash = new HashMap<>();
+    //hacemos el hashmap public para poder usarlo en otras clases
+    public HashMap<Integer, String> miHash = new HashMap<>();
 
     @Override
     public void putValue(Integer key, String value) {
