@@ -1,6 +1,7 @@
 package ejer_hashmap_arraylist;
 
 /**
+ * Main class donde trabajará con el programa y se usará el Adapter
  *
  * @author lvaqueiroperez
  */
@@ -41,15 +42,16 @@ public class Ejer_HashMap_ArrayList {
         
         
          */
-        
         miHash.putValue(10, "uno");
         miHash.putValue(11, "dos");
         miHash.putValue(12, "tres");
-        
+        //mostar 
+        //CREAMOS UN OBJETO HASH2LIST Y LE DAMOS COMO PARÁMETRO NUESTRO HASHMAP
+        //AQUÍ SE USA EL ADAPTER
         Hash2List miHash2List = new Hash2List(miHash);
-        
+        //
         MostrarLIst.mostrar(miHash2List);
-        
+
     }
 
 }

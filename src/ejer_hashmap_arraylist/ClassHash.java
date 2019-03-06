@@ -3,6 +3,7 @@ package ejer_hashmap_arraylist;
 import java.util.*;
 
 /**
+ * Clase que implementa la Interfaz Hash, crea un HashMap y define los métodos
  *
  * @author lvaqueiroperez
  */

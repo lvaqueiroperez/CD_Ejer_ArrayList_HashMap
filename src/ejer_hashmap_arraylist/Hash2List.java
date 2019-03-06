@@ -3,6 +3,8 @@ package ejer_hashmap_arraylist;
 import java.util.*;
 
 /**
+ * Clase que hereda de ClassList donde se crea el Adapter que convertirá los
+ * HashMap en ArrayLists
  *
  * @author lvaqueiroperez
  */
@@ -10,9 +12,12 @@ public class Hash2List extends ClassList {
 
     ClassHash miHash = new ClassHash();
 
-    //En el constructor ya hacemos toda la conversion !!!
-    //(también se podría hacer en un método)
-    
+    /**
+     * Método del Adapter que recibe como parámetro un elemento del tipo de la
+     * Clase problemática
+     *
+     * @param hashAConvertir
+     */
     public Hash2List(ClassHash hashAConvertir) {
         //key Set solo pasa las claves !!!!
         Iterator it = hashAConvertir.miHash.keySet().iterator();
