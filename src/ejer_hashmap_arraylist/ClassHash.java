@@ -12,6 +12,12 @@ public class ClassHash implements InterfaceHash {
     //hacemos el hashmap public para poder usarlo en otras clases
     public HashMap<Integer, String> miHash = new HashMap<>();
 
+    /**
+     * Método para introducir un nuevo campo en el HashMap creado (key,value)
+     *
+     * @param key recibe la clave
+     * @param value recibe el valor
+     */
     @Override
     public void putValue(Integer key, String value) {
 
@@ -19,6 +25,13 @@ public class ClassHash implements InterfaceHash {
 
     }
 
+    /**
+     * Método para retornar el campo del HashMap especificado por la clave
+     * puesta como parámetro de entrada
+     *
+     * @param key recibe la clave a buscar
+     * @return retorna el valor de esa clave
+     */
     @Override
     public String getValue(Integer key) {
 

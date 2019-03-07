@@ -10,6 +10,12 @@ import javax.swing.JOptionPane;
  */
 public class MostrarLIst {
 
+    /**
+     * Método que muestra un ArrayList introducido como parámetro de la clase
+     * ClassList
+     *
+     * @param lista
+     */
     public static void mostrar(ClassList lista) {
 
         System.out.println("index" + "  " + "value");
